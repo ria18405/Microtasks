@@ -38,18 +38,12 @@ To add upstream of a repo : ```git remote add upstream https://github.com/chaoss
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/remotes.png)
 
-2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install packages like mariadb , elasticsearch and kibiter.
+2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install packages like mariadb , elasticsearch and kibiter etc
 
 3. ```Settings``` -> ```Project```->```Project Settings```-> click the ```+ content root ``` icon and add all the folders of cloned repositories.
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/ProjectStructure.png)
 
-3. Install all requirements of these cloned repositories.
-
-
-	```pip install -r requirements.txt```
-
-And go to each folder and run ```python3 setup.py install```
 
 4. Then go to ```Run```->```Edit Configurations ``` -> click the ```+``` icon and create a Python file with Script path = path to utils/micro.py 
 
