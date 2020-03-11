@@ -1,4 +1,6 @@
 **MICROTASK3:**
+
+
 **AIM:** Based on the JSON documents produced by Perceval and its source code, try to answer the following questions:
 
 
@@ -13,7 +15,8 @@
 
 5. How many categories do the GitHub and GitLab backends have?
 
-Github has 3 categories namely: 'issue', 'pull_request' and 'repository'
+Github has 3 categories namely: 'issue', 'pull_request' and 'repository'.
+
 GitLab has 2 categories namely: 'issue' and 'merge_request'
 
 6. What is the meaning of the JSON attribute 'uuid'?
