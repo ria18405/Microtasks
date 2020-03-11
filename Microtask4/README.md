@@ -1,35 +1,39 @@
-MICROTASK 4:
+__MICROTASK 4:
+
 AIM: Set up a dev environment to work on GrimoireLab.
-STEPS:
+
+STEPS:__
+
+
 1. Clone all these repositories to a local folder with their 2 remotes : origin and upstream.
 
--SirModred
+	-SirModred
 
--ELK
+	-ELK
 
--Graal
+	-Graal
 
--Perceval
+	-Perceval
 
--Perceval for Mozilla
+	-Perceval for Mozilla
 
--Perceval for OPNFV
+	-Perceval for OPNFV
 
--Perceval for Puppet
+	-Perceval for Puppet
 
--Perceval for FINOS
+	-Perceval for FINOS
 
--SortingHat
+	-SortingHat
 
--Sigils
+	-Sigils
 
--Kidash
+	-Kidash
 
--Toolkit
+	-Toolkit
 
--Cereslib
+	-Cereslib
 
--Manuscripts
+	-Manuscripts
 
 2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install packages like mariadb , elasticsearch and kibiter.
 
@@ -40,3 +44,5 @@ STEPS:
 	```pip install -r requirements.txt```
 
 And go to each folder and run ```python3 setup.py install```
+
+
