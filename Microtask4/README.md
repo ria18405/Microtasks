@@ -5,7 +5,8 @@
 **STEPS:**
 
 
-1. Clone all these repositories to a local folder with their 2 remotes : origin and upstream.
+1. Clone all these repositories to a local folder with their 2 remotes : ```origin and upstream.``` 
+To add upstream of a repo : ```git remote add upstream https://github.com/chaoss/grimoirelab-repo.git ```  (change repo with repo-name)
 
 	-SirModred
 
@@ -34,6 +35,8 @@
 	-Cereslib
 
 	-Manuscripts
+
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/remotes.png)
 
 2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install packages like mariadb , elasticsearch and kibiter.
 
