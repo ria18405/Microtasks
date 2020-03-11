@@ -1,8 +1,8 @@
-__MICROTASK 4:
+**MICROTASK 4:
 
 AIM: Set up a dev environment to work on GrimoireLab.
 
-STEPS:__
+STEPS:**
 
 
 1. Clone all these repositories to a local folder with their 2 remotes : origin and upstream.
