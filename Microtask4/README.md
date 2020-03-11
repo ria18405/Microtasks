@@ -5,7 +5,6 @@ STEPS:
 
 -SirModred
 -ELK
-
 -Graal
 -Perceval
 -Perceval for Mozilla
@@ -25,4 +24,4 @@ STEPS:
 
 3. Install all requirements of these cloned repositories.
 	```pip install -r requirements.txt```
-And go to each folder and run ```python3 setup.py install``` 
+And go to each folder and run ```python3 setup.py install```
