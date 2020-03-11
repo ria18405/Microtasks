@@ -13,16 +13,16 @@ STEPS:
 
 * **perc_git.py** fetches a list of commits from a Git repository and prints all data.
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/git1.png)
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/git2.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/Images/git1.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/Images/git2.png)
 
 
 
 * **perc_github.py** retrieves,the issues/pull requests from a GitHub repository,  updated since the given date and prints all data. 
 
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/github1.png)
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/github2.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/Images/github1.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/Images/github2.png)
 
 Output files are been attached.
  
