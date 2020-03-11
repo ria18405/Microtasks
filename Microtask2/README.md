@@ -11,19 +11,18 @@ STEPS:
 2. Run ```python3 perc_git.py ``` and ```python3 perc_github.py ```
 
 
-* perc_git.py fetches a list of commits from a Git repository and prints all data.
+* **perc_git.py** fetches a list of commits from a Git repository and prints all data.
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/git1.png)
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/git2.png)
-
-
-
-* per_github.py retrieves,the issues/pull requests from a GitHub repository, 
-    updated since the given date and prints all data. 
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/git1.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/git2.png)
 
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/github1.png)
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/github2.png)
+
+* **perc_github.py** retrieves,the issues/pull requests from a GitHub repository,  updated since the given date and prints all data. 
+
+
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/github1.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask2/blob/master/Images/github2.png)
 
 Output files are been attached.
  
