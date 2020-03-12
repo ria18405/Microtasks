@@ -52,7 +52,7 @@ and parameters as ```--raw --enrich --panels --cfg ./setup.cfg --backends git co
 
 **Set up finished**
 
-### STEPS to setup docker : 
+###### STEPS to setup docker : 
 
 1. make a docker-compose.yml file with contents : 
 ```
@@ -96,6 +96,7 @@ Do not use sudo for running the command, instead follow 4.
 		sudo update-grub```
 
 5. Run ```docker-compose up -d```
+
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockersetup.png)
 (docker setup- complete)
 
