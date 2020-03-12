@@ -8,6 +8,10 @@
 
 2. ``` pip install perceval ```
 
+or 
+
+2. Clone repository perceval, and then run ```python3 setup.py install```
+
 3. Edit Configuration of perceval.py and set parameters as ``` github elastic logstash --from date '2016-01-01' --sleep-for-rate ```
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask1/configuration.png)

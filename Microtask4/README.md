@@ -44,20 +44,16 @@ To add upstream of a repo : ```git remote add upstream https://github.com/chaoss
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/ProjectStructure.png)
 
+4. Set up docker 
 
-4. Then go to ```Run```->```Edit Configurations ``` -> click the ```+``` icon and create a Python file with Script path = path to utils/micro.py 
+5. Then go to ```Run```->```Edit Configurations ``` -> click the ```+``` icon and create a Python file with Script path = path to utils/micro.py 
 
 and parameters as ```--raw --enrich --panels --cfg ./setup.cfg --backends git cocom```
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/micro.png)
-
 **Set up finished**
 
-This error might be very common to see: 
+### STEPS to setup docker : 
 
-```ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running?``` 
-
-STEPS to setup docker : 
 1. make a docker-compose.yml file with contents : 
 ```
 elasticsearch:
@@ -86,19 +82,26 @@ kibiter:
 ``` 
 (I have ignored mariadb portion)
 
-2. Run daemon process in the baground. 
+2. Run daemon process in the baground.  (```sudo dockerd```)
 
-3. Do not use sudo for running the command docker-compose up -d
+3. Run ```docker-compose up -d```. In case of error like >ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running? 
+
+Do not use sudo for running the command, instead follow 4.
 
 4. Add user details . See this for adding user details : https://docs.docker.com/install/linux/linux-postinstall/
+
+6. In case of swap space error, edit the ```/etc/default/grub file``` with sudo previleges.
+
+	```GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
+		sudo update-grub```
 
 5. Run ```docker-compose up -d```
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockersetup.png)
 (docker setup- complete)
 
-6. run ```systemctl status docker``` to know the status of docker.
 
-7. In case of swap space error, edit the ```/etc/default/grub file``` with sudo previleges.
-	```GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"
-	sudo update-grub```
+7. run ```systemctl status docker``` to know the status of docker.
+
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockeractive.png)	
+
 

@@ -4,4 +4,4 @@
 
 Installed pycharm on ubuntu 18.04.
 
-![Image description][https://github.com/ria18405/Microtasks/blob/master/Microtask0/pycharmsetup.png]
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask0/pycharmsetup.png)
