@@ -1,4 +1,4 @@
-**MICROTASK 4:**
+##MICROTASK 4:
 
 **AIM: Set up a dev environment to work on GrimoireLab.**
 
@@ -8,33 +8,33 @@
 1. Clone all these repositories to a local folder with their 2 remotes : ```origin and upstream.``` 
 To add upstream of a repo : ```git remote add upstream https://github.com/chaoss/grimoirelab-repo.git ```  (change repo with repo-name)
 
-	-SirModred
+  -SirModred
+  
+  -ELK
+  
+  -Graal
+  
+  -Perceval
+  
+  -Perceval for Mozilla
+    
+  -Perceval for OPNFV
+    
+  -Perceval for Puppet
+    
+  -Perceval for FINOS
+    
+  -SortingHat
+    
+  -Sigils
 
-	-ELK
-
-	-Graal
-
-	-Perceval
-
-	-Perceval for Mozilla
-
-	-Perceval for OPNFV
-
-	-Perceval for Puppet
-
-	-Perceval for FINOS
-
-	-SortingHat
-
-	-Sigils
-
-	-Kidash
-
-	-Toolkit
-
-	-Cereslib
-
-	-Manuscripts
+  -Kidash
+  
+  -Toolkit
+  
+  -Cereslib
+  
+  -Manuscripts
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/remotes.png)
 
@@ -44,17 +44,20 @@ To add upstream of a repo : ```git remote add upstream https://github.com/chaoss
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/ProjectStructure.png)
 
-4. Set up docker 
+4. Set up docker and try connecting to local host (i.e ```curl -XGET https://admin:admin@localhost:9200 -k ```) to check if connection is being set up. 
 
 5. Then go to ```Run```->```Edit Configurations ``` -> click the ```+``` icon and create a Python file with Script path = path to utils/micro.py 
 
 and parameters as ```--raw --enrich --panels --cfg ./setup.cfg --backends git cocom```
 
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/Output.png)
+
+
 **Set up finished**
 
 **STEPS to setup docker :**
 
-1. make a docker-compose.yml file with contents : 
+1. Make a docker-compose.yml file with contents : (You have 2 options- with SearchGuard or without SearchGuard)
 ```
 elasticsearch:
   restart: on-failure:5
@@ -80,22 +83,21 @@ kibiter:
     - 5601:5601
 
 ``` 
-(I have ignored mariadb portion)
+(I have ignored mariadb portion since I had MySQL running)
 
-2. Run daemon process in the baground.  (```sudo dockerd```)
 
 3. Run ```docker-compose up -d```. In case of error like 
 > ERROR: Couldn't connect to Docker daemon at http+docker://localunixsocket - is it running? 
 
-Do not use sudo for running the command, instead follow 4.
+Do not use sudo for running the command, instead follow step 4.
 
 4. Add user details . See this for adding user details : https://docs.docker.com/install/linux/linux-postinstall/
 
 6. In case of swap space error, edit the ```/etc/default/grub file``` with sudo previleges.
-	```
-	    GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1" 
-		sudo update-grub
-		```
+  ```
+      GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1" 
+    sudo update-grub
+  ```
 
 5. Run ```docker-compose up -d```
 
@@ -103,8 +105,9 @@ Do not use sudo for running the command, instead follow 4.
 (docker setup- complete)
 
 
-7. run ```systemctl status docker``` to know the status of docker.
+7. run ```systemctl status docker``` to know the status of docker and ```docker ps``` to know the status of the container.
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockeractive.png)	
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockeractive.png)  
+
 
 
