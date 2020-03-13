@@ -1,4 +1,4 @@
-##MICROTASK 4:
+## MICROTASK 4:
 
 **AIM: Set up a dev environment to work on GrimoireLab.**
 
