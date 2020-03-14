@@ -1,23 +1,3 @@
-**RATE LIMIT EXHAUSTED**
-
-* Indication: While executing perceval, see error message ```RuntimeError: Rate limit exhausted.; 3581.0 seconds to rate reset```
-
-* Solution : Enable sleep-for-rate param. (ref: https://github.com/chaoss/grimoirelab-perceval/blob/master/perceval/backends/core/github.py#L989)
-
-
-
-**NO SWAP SPACE**
-
-* Indication: While composing docker , NO SWAP SPACE would be displayed.
-
-* Solution:  Edit the ```/etc/default/grub file``` with sudo previleges.
-	```
-	    GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1" 
-		sudo update-grub
-	```
-    And restart the system.
-
-
 
 **CONNECTION REFUSED**
 
@@ -48,4 +28,22 @@
     - Check connection by connecting to the localhost and later try executing micromondred by setup.cfg and project.json. The data should be visible through the dashboard.
 
 
+**RATE LIMIT EXHAUSTED**
+
+* Indication: While executing perceval, see error message ```RuntimeError: Rate limit exhausted.; 3581.0 seconds to rate reset```
+
+* Solution : Enable the sleep-for-rate parameter. 
+
+
+
+**NO SWAP SPACE**
+
+* Indication: While composing docker , NO SWAP SPACE would be displayed.
+
+* Solution:  Edit the ```/etc/default/grub file``` with sudo previleges.
+	```
+	    GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1" 
+		sudo update-grub
+	```
+    And restart the system.
 
