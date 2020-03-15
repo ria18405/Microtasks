@@ -1,4 +1,4 @@
-**MICROTASK 1**
+## MICROTASK 1
 
 **AIM:** Set up Perceval to be executed from PyCharm.
 

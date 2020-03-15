@@ -1,4 +1,4 @@
-**MICROTASK 2**
+## MICROTASK 2
 
 **AIM:** Create a Python script to execute Perceval via its Python interface using the GitLab and GitHub backends. Feel free to select any target repository.
 

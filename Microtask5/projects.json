@@ -1,0 +1,24 @@
+{
+    "riagupta": {
+        "git": [
+            "https://github.com/chaoss/grimoirelab-sirmordred",
+            "https://github.com/chaoss/grimoirelab-elk"
+
+
+        ],
+        "github": [
+            "https://github.com/chaoss/grimoirelab-sirmordred",
+            "https://github.com/chaoss/grimoirelab-elk",
+            "https://github.com/ria18405/cbioportal"
+
+        ],
+        "github:pull": [
+            "https://github.com/chaoss/grimoirelab-sirmordred",
+            "https://github.com/chaoss/grimoirelab-elk"
+        ],
+        "github:repo": [
+            "https://github.com/chaoss/grimoirelab-sirmordred",
+            "https://github.com/chaoss/grimoirelab-elk"
+        ]
+    }
+}
