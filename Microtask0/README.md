@@ -1,7 +1,9 @@
-## MICROTASK 5
+## MICROTASK 0
 
 **AIM:** Download PyCharm and get familiar with it 
 
 Installed pycharm on ubuntu 18.04.
+
+Try to open an existing proect or create a new project:
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask0/pycharmsetup.png)

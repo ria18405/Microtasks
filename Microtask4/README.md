@@ -93,11 +93,6 @@ Do not use sudo for running the command, instead follow step 4.
 
 4. Add user details . See this for adding user details : https://docs.docker.com/install/linux/linux-postinstall/
 
-6. In case of swap space error, edit the ```/etc/default/grub file``` with sudo previleges.
-  ```
-      GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1" 
-    sudo update-grub
-  ```
 
 5. Run ```docker-compose up -d```
 
