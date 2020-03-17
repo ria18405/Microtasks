@@ -42,4 +42,8 @@
 8. What is stored in the attribute ```data``` of each JSON document produced by Perceval?
 	`data` attribute represents all the data of the item retrieved/fetched from repositories.The contents from the original item are stored under the 'data' keyword.
 
+Ref: 
+https://github.com/chaoss/grimoirelab-perceval/blob/master/perceval/backend.py
+
+https://github.com/chaoss/grimoirelab-perceval/blob/master/perceval/archive.py
 

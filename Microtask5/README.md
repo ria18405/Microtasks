@@ -29,7 +29,3 @@ run
 
 Project.json and setup.cfg have been attached .
 
-Ref: 
-https://github.com/chaoss/grimoirelab-perceval/blob/master/perceval/backend.py
-
-https://github.com/chaoss/grimoirelab-perceval/blob/master/perceval/archive.py
