@@ -40,6 +40,7 @@
 	By default, search_fields contains the id of the item ('item_id': item_id_value). However, each backend can set extra search fields using the dict EXTRA_SEARCH_FIELDS.
 
 8. What is stored in the attribute ```data``` of each JSON document produced by Perceval?
+	
 	`data` attribute represents all the data of the item retrieved/fetched from repositories.The contents from the original item are stored under the 'data' keyword.
 
 Ref: 

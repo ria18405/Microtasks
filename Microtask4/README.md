@@ -36,13 +36,13 @@ To add upstream of a repo : ```git remote add upstream https://github.com/chaoss
   
   -Manuscripts
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/remotes.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/remotes.png)
 
 2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install packages like mariadb , elasticsearch and kibiter etc
 
 3. ```Settings``` -> ```Project```->```Project Settings```-> click the ```+ content root ``` icon and add all the folders of cloned repositories.
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/ProjectStructure.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/ProjectStructure.png)
 
 4. Set up docker and try connecting to local host (i.e ```curl -XGET https://admin:admin@localhost:9200 -k ```) to check if connection is being set up. 
 
@@ -50,7 +50,7 @@ To add upstream of a repo : ```git remote add upstream https://github.com/chaoss
 
 and parameters as ```--raw --enrich --panels --cfg ./setup.cfg --backends git cocom```
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/Output.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/Output.png)
 
 
 **Set up finished**
@@ -96,13 +96,13 @@ Do not use sudo for running the command, instead follow step 4.
 
 5. Run ```docker-compose up -d```
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockersetup.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/dockersetup.png)
 (docker setup- complete)
 
 
 7. run ```systemctl status docker``` to know the status of docker and ```docker ps``` to know the status of the container.
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/dockeractive.png)  
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/dockeractive.png)  
 
 
 

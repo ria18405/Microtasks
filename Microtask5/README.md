@@ -23,9 +23,9 @@ run
 
 3. Now, visit https://admin:admin@localhost:5601 on the browser
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask5/Overview.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask5/assets/Overview.png)
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask5/git.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask5/assets/git.png)
 
-Project.json and setup.cfg have been attached .
+[Project.json](https://github.com/ria18405/Microtasks/blob/master/Microtask5/projects.json) and [setup.cfg]((https://github.com/ria18405/Microtasks/blob/master/Microtask5/setup.cfg)) have been attached .
 
