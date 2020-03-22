@@ -6,7 +6,7 @@
 
 1. Go to Visualisations on Kibiter (Top Left of the Browser window ).
 
-2. Add a new Visualisation of `Data Table`. You can chose anu, but for this task, use a Data Table as instructed.
+2. Add a new Visualisation of `Data Table`. You can chose any, but for this task, use a Data Table as instructed.
 
 3. Select index as `mbox`.
 

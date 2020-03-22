@@ -27,5 +27,5 @@ run
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask5/assets/git.png)
 
-[Project.json](https://github.com/ria18405/Microtasks/blob/master/Microtask5/projects.json) and [setup.cfg]((https://github.com/ria18405/Microtasks/blob/master/Microtask5/setup.cfg)) have been attached .
+[Project.json](https://github.com/ria18405/Microtasks/blob/master/Microtask5/projects.json) and [setup.cfg](https://github.com/ria18405/Microtasks/blob/master/Microtask5/setup.cfg) have been attached .
 

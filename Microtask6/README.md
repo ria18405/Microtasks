@@ -33,7 +33,7 @@ GET _search
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask6/kibana_console_query.png)
 
-Had we not used the attribute `size`, we would have obtained the output as shown below. Data wuld be displayed intead of counting the number of entries.
+Had we not used the attribute `size`, we would have obtained the output as shown below. Data would be displayed intead of counting the number of entries.
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask6/withoutsize.png)
 
 Ref: 
