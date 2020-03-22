@@ -7,11 +7,15 @@ from elasticsearch import Elasticsearch
 import csv
 import pandas as pd
 
-"""es = Elasticsearch()
+es = Elasticsearch()
 
-file=open("output.csv","w")
-writer=csv.writer(file,delimiter=',')
-writer.writerow(["uuid","project","project_1","origin","grimoirelab_creation_date","body"])
+arr_uuid=[]
+arr_origin=[]
+arr_body=[]
+arr_project=[]
+arr_project_1=[]
+arr_subject_analysed=[]
+arr_grimoirelab_creation_date=[]
 
 res = es.search(index="groupsio_enriched", body={"query": {"match_all": {}}})
 for i in range(10):
@@ -23,11 +27,22 @@ for i in range(10):
 	project=(res['hits']['hits'][i]['_source']['project'])
 	project_1=(res['hits']['hits'][i]['_source']['project_1'])
 
-	writer.writerow([uuid,project,project_1,origin,grimoirelab_creation_date,body])"""
+	arr_uuid.append(uuid)
+	arr_origin.append(origin)
+	arr_grimoirelab_creation_date.append(grimoirelab_creation_date)
+	arr_body.append(body)
+	arr_subject_analysed.append(subject_analyzed)
+	arr_project.append(project)
+	arr_project_1.append(project_1)
 
-read_file = pd.read_csv(r'/home/ria/Desktop/Microtasks/Microtask8/output.csv',delimiter=',',delim_whitespace=True,header=None,encoding='utf-8')
-print(read_file)
-read_file.to_excel (r'/home/ria/Desktop/Microtasks/Microtask8/output.xlsx',na_rep=",",header=None,index=None,merge_cells=True,engine='openpyxl' )
+
+df=pd.DataFrame({'uuid':arr_uuid,'origin':arr_origin,'project':arr_project,'project_1':arr_project,'grimoirelab_creation_date':arr_grimoirelab_creation_date,'subject_analyzed':arr_subject_analysed,'body':arr_body})
+print(df)
+df.to_csv("output.csv")
+df.to_excel("output.xlsx", index=None)
+
+
+
 """Ref:
 https://elasticsearch-py.readthedocs.io/en/master/
 """

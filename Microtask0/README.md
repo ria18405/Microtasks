@@ -4,6 +4,6 @@
 
 Installed pycharm on ubuntu 18.04.
 
-Try to open an existing proect or create a new project:
+Try to open an existing project or create a new project:
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask0/pycharmsetup.png)

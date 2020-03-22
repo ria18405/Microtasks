@@ -1,7 +1,8 @@
 {
     "Chaoss": {
         "groupsio": [
-            "onap"
+            "onap",
+            "onap+onap-arc"
         ]
     }
 }

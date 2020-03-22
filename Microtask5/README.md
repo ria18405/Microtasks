@@ -15,7 +15,7 @@ set pwd=grimoirelab-sirmodred/../utils and
 run 
 ```python3 micro.py --raw --enrich --panels --cfg ./setup.cfg --backends git github cocom```
 
-![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/Output.png)
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/Output.png)
 
 
 2. Edit the project.json and add any git repository with enough data to visualise. Also, edit setup.cfg according to the docker-compose version(with/without SecurityGuard)

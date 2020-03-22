@@ -45,6 +45,14 @@ elasticdump --input=http://localhost:9200/git-onion_enriched --output=git-onion_
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/data.png)
 
+* [git-onion_enriched_data.json](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/git-onion_enriched_data.json)
+
+* [git-onion_enriched_mapping.json](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/git-onion_enriched_mapping.json)
+
+* [git-chaoss_enriched_data.json](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/git-chaoss_enriched_data.json)
+
+* [git-chaoss_enriched_mapping.json](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/git-chaoss_enriched_mapping.json)
+
 
 Ref:
 https://www.npmjs.com/package/elasticdump
