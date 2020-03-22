@@ -1,5 +1,5 @@
-uuid,project,project_1,origin,grimoirelab_creation_date,body
-2b8de86cbcae544a97c234bdd5bef59129321e05,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-12T15:56:52+00:00,"Update:
+uuid,origin,project,project_1,grimoirelab_creation_date,subject_analyzed,body
+2b8de86cbcae544a97c234bdd5bef59129321e05,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-12T15:56:52+00:00,Re: ArchCom Agenda topics 13-Nov,"Update:
 The BBS use case will also be presented for Architecture review now that it has been discussed with the use case sub-committee.  BR, Steve
 
 From: onap-arc@lists.onap.org <onap-arc@lists.onap.org> On Behalf Of Stephen Terrill
@@ -9,7 +9,7 @@ Subject: [Onap-arc] ArchCom Agenda topics 13-Nov
 
 Hi,
 "
-06f4f45298007e96f70323c5d36ad46f0ead5a7c,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-12T12:08:10+08:00,"Hi Steve,
+06f4f45298007e96f70323c5d36ad46f0ead5a7c,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-12T12:08:10+08:00,Correct words--Re: [Onap-arc] Casablanca Architecture Whitepaper,"Hi Steve,
 
 I’m sorry.
 
@@ -19,7 +19,7 @@ Thanks!
 
 Best,
 "
-88ee1ac81fbe55c8b6d04b1d9bdd78fc772f1aa5,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-11T13:51:34+00:00,"Hi all,
+88ee1ac81fbe55c8b6d04b1d9bdd78fc772f1aa5,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-11T13:51:34+00:00,analysis of priorities for Dublin Release,"Hi all,
 
 I tried to categorize the requirements provided by a different Service Providers https://wiki.onap.org/display/DW/SP+priorities+for+Dublin whether it is use case, functional requirement, S3P, architecture or modelling enhancement, documentation or specific project requirement.
 You are welcome to review the categories and update, if necessary.
@@ -29,7 +29,7 @@ Usecase subcommittee: while analyzing the outcomes, my impression is that 5G PNF
 
 
 Best regards,"
-7e13774d2f8d18e9120f408000795e309f27af67,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-07T22:42:17+00:00,"Another alternative time to consider is 3:00pm US West, 6:00pm US East, next day 7:00am China.
+7e13774d2f8d18e9120f408000795e309f27af67,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-07T22:42:17+00:00,Re: [onap-arc] Orchestration Scenarios,"Another alternative time to consider is 3:00pm US West, 6:00pm US East, next day 7:00am China.
 
 This would be problematic for Europe but we can decide based on the interested attendee time zones.
 
@@ -39,7 +39,7 @@ Ramki
 From: onap-arc@lists.onap.org <onap-arc@lists.onap.org> On Behalf Of Lingli Deng
 Sent: Wednesday, November 7, 2018 2:36 PM
 To: BULLARD, GIL <wb5674@att.com>"
-4a4650e45da0c5dc655561d2a72c130b551c6537,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-07T21:49:58+00:00,"Parviz, you should work East Coast hours so you can take off in the pm and enjoy those beautiful California afternoons…   :-)
+4a4650e45da0c5dc655561d2a72c130b551c6537,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-07T21:49:58+00:00,Re: [onap-arc] Orchestration Scenarios,"Parviz, you should work East Coast hours so you can take off in the pm and enjoy those beautiful California afternoons…   :-)
 
 From: onap-arc@lists.onap.org <onap-arc@lists.onap.org> On Behalf Of Parviz Yegani
 Sent: Wednesday, November 07, 2018 4:25 PM
@@ -49,7 +49,7 @@ Subject: Re: [onap-arc] Orchestration Scenarios
 Hi Fred,
 
 Can we start one hour later (10am ET)? See my note on the wiki page …"
-e720155d5dddc64a4e096fb6d3f6a2ef36418436,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-07T20:31:32+00:00,"Yes, both these times work for me as well.
+e720155d5dddc64a4e096fb6d3f6a2ef36418436,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-07T20:31:32+00:00,Re: [onap-arc] Orchestration Scenarios,"Yes, both these times work for me as well.
 
 Regards,
 Vimal
@@ -59,7 +59,7 @@ Sent: Wednesday, November 07, 2018 3:30 PM
 To: fernando.oliveira@verizon.com; onap-arc@lists.onap.org
 Subject: Re: [onap-arc] Orchestration Scenarios
 "
-f0a1cafb1efe0249c110221fac29ac193a250804,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-07T21:24:40+00:00,"Hi Fred,
+f0a1cafb1efe0249c110221fac29ac193a250804,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-07T21:24:40+00:00,Re: [onap-arc] Orchestration Scenarios,"Hi Fred,
 
 Can we start one hour later (10am ET)? See my note on the wiki page …
 
@@ -69,7 +69,7 @@ Parviz
 Parviz Yegani, PhD
 Chief SDN/NFV Architect
 CTO Office, Cloud Network Solutions"
-8b5f26e9bb37a567bade020d03edd35d05d4e42d,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-07T15:38:09+00:00,"Hi All,
+8b5f26e9bb37a567bade020d03edd35d05d4e42d,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-07T15:38:09+00:00,[onap-arc] Orchestration Scenarios,"Hi All,
                 I took the action to create a confluence page and schedule a meeting to start detailed discussion for this topic.
 The initial page is at https://wiki.onap.org/display/DW/Orchestration+Scenarios. That page an updated presentation based on what I presented.
 I added a few members that I saw had interest in the discussion. If I missed you and you would like to be part of this discussion please add your name to the members section so that I can include you in correspondence.
@@ -78,7 +78,7 @@ I propose meeting on either Friday (9/Nov) or Monday (12/Nov) at 9am ET.  Please
 Best Regards,
 Fernando (Fred) Oliveira
 "
-b12aa95c45f008ba57e2b65179b15fdbe5c178bf,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-11-04T23:27:55+00:00,"Hi,
+b12aa95c45f008ba57e2b65179b15fdbe5c178bf,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-11-04T23:27:55+00:00,[ONAP-ARCHCOM] Agenda 6/11,"Hi,
 
 For the ARCHCOM agenda this Tuesday I propose the following:
 
@@ -88,17 +88,7 @@ For the ARCHCOM agenda this Tuesday I propose the following:
   *   ONAP Orchestration scenarios (Fred O):
      *   Primarily due to having to come to a conclusion regarding the modelling for Dublin (however there are other potential implications) the need to quickly look into the orchestration scnarios was identified.
      *   This slot is to align on the intent/scope, timeline of this activity."
-44f9658e7cea45b7508aff8c70e1f789a4352112,Chaoss,Chaoss,https://groups.io/g/onap+onap-arc,2018-10-21T11:27:03+00:00,"Dear Architecture and modelling sub-committee attendee, 
-
-We are excited that the indicated indicated attendance at the F2F
-Architecture and Modelling meeting far exceeds the original expectations.
-In light of this, a new venue has been chosen.:
-
-New venue:
-Venue: Montreal Marriott Chateau Champlain, 1050 de la Gauchetiere West,
-Montreal  H3B 4C9 Canada
-"
-T11:27:03+00:00,Update on Venue for the Architecture and modelling sub-committee F2F meeting,"Dear Architecture and modelling sub-committee attendee, 
+44f9658e7cea45b7508aff8c70e1f789a4352112,https://groups.io/g/onap+onap-arc,Chaoss,Chaoss,2018-10-21T11:27:03+00:00,Update on Venue for the Architecture and modelling sub-committee F2F meeting,"Dear Architecture and modelling sub-committee attendee, 
 
 We are excited that the indicated indicated attendance at the F2F
 Architecture and Modelling meeting far exceeds the original expectations.

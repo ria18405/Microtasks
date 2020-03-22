@@ -1,6 +1,6 @@
 # CHAOSS OUTREACHY 2020 MICROTASKS
 
-## Implement the Social Currency Metrics System in GrimoireLabs #288
+## [Implement the Social Currency Metrics System in GrimoireLabs #288](https://github.com/chaoss/grimoirelab/issues/288)
 
 LIST OF MICROTASKS : 
 
