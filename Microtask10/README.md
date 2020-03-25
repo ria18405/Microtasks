@@ -4,4 +4,7 @@
 1. ADDED SECTIONS TO TROUBLESHOOTING:
 https://github.com/chaoss/grimoirelab-sirmordred/pull/429 : Merged
 
+2. ADDED SECTIONS IN 'HOW TO' SECTION IN GETTING STARTED:
+https://github.com/chaoss/grimoirelab-sirmordred/pull/440 : Merged
+
 List of PRs will be updated soon.

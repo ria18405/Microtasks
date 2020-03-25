@@ -1,0 +1,9 @@
+#!/bin/bash
+
+elasticdump --input=http://localhost:9200/git-onion_enriched --output=git-onion_enriched_mapping.json --type=mapping
+
+elasticdump --input=http://localhost:9200/git-onion_enriched --output=git-onion_enriched_data.json --type=data
+
+elasticdump --input=http://localhost:9200/git_chaoss_enriched --output=git_choass_enriched_mapping.json --type=mapping
+
+elasticdump --input=http://localhost:9200/git_chaoss_enriched --output=git_chaoss_enriched_data.json --type=data

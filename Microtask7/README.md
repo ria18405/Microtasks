@@ -41,6 +41,15 @@ elasticdump --input=http://localhost:9200/git-onion_enriched --output=git-onion_
 elasticdump --input=http://localhost:9200/git-onion_enriched --output=git-onion_enriched_data.json --type=data
 
 ```
+
+OR
+
+3. Run this bash script: [script](https://github.com/ria18405/Microtasks/blob/master/Microtask7/script) 
+		`./script`
+
+This script runs elastic dump on 2 indices - i.e (git-onion_enriched and git_chaoss_enriched)
+
+
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/mapping.png)
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask7/OutputData/data.png)

@@ -38,7 +38,7 @@ To add upstream of a repo : ```git remote add upstream https://github.com/chaoss
 
 ![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask4/assets/remotes.png)
 
-2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install packages like mariadb , elasticsearch and kibiter etc
+2. ```Settings``` -> ```Project```->```Project Interpreter```-> click the ```+``` icon and add install all requirement packages like mariadb , elasticsearch, dulwich etc (Find all requirements [here](https://github.com/chaoss/grimoirelab-perceval/blob/master/requirements.txt) )
 
 3. ```Settings``` -> ```Project```->```Project Settings```-> click the ```+ content root ``` icon and add all the folders of cloned repositories.
 

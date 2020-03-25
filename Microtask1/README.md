@@ -10,7 +10,9 @@
 
 or 
 
-2. Clone repository perceval, and then run ```python3 setup.py install```
+2. Clone repository perceval, and open it in Pycharm New project window. A new birtual environment will be formed. Now go to `File->Settings->Project Structure-> Add content Root `. After clicking on `+` icon, add the folder which contains the clone of the perceval repository.
+
+Now perceval.backends.core can be easily imported.
 
 3. Edit Configuration of perceval.py and set parameters as ``` github elastic logstash --from date '2016-01-01' --sleep-for-rate ```
 
