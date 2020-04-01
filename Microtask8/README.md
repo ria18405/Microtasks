@@ -31,7 +31,7 @@ Then, write a script to read the enriched index and import the attributes uuid, 
 
 **STEP 2:** READ ENRICHED DATA AND IMPORT TO CSV FILES
 
-Run the [script.py](https://github.com/ria18405/Microtasks/blob/master/Microtask8/file.py) as 
+Run the [script.py](https://github.com/ria18405/Microtasks/blob/master/Microtask8/script.py) as 
 	`python3 script.py`
 
 Output : "Output files are output.csv and output.xlsx"
