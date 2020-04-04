@@ -49,3 +49,20 @@ A new output.csv and output.xlsx file will be made and all data i.e uuid, projec
 
 Ref:
 https://elasticsearch-py.readthedocs.io/en/master/
+
+
+
+#### ADDITIONAL TASKS:
+
+**Export CSV to Airtable**
+Have added the code to export CSV to Airtable code in [script.py](https://github.com/ria18405/Microtasks/blob/master/Microtask8/script.py)
+
+Have used Airtable APIs to export enriched_index data.
+
+![Image description](https://github.com/ria18405/Microtasks/blob/master/Microtask8/assets/Airtable.png)
+
+Important documentations and referances used:
+- https://airtable.com/api
+- https://community.airtable.com/t/how-to-programatically-import-csv-to-airtable-creating-a-new-table-in-an-existing-base-csv-is-a-file-on-a-cloud-vm/26189/6
+
+

@@ -1,6 +1,7 @@
 from elasticsearch import Elasticsearch
 import csv
 import pandas as pd
+import requests
 def search():
 	"""
 	Search all data with the index: groupsio_enriched for the attributes like uuid, origin, creation date, body text, subject and projects.
@@ -37,15 +38,55 @@ def search():
 		arr_project_1.append(project_1)
 
 
-	df=pd.DataFrame({'uuid':arr_uuid,'origin':arr_origin,'project':arr_project,'project_1':arr_project_1,'grimoirelab_creation_date':arr_grimoirelab_creation_date,'subject_analyzed':arr_subject_analysed,'body':arr_body})
+	df=pd.DataFrame({
+		'uuid':arr_uuid,
+		'origin':arr_origin,
+		'project':arr_project,
+		'project_1':arr_project_1,
+		'grimoirelab_creation_date':arr_grimoirelab_creation_date,
+		'subject_analyzed':arr_subject_analysed,
+		'body':arr_body})
 
 	convert_csv(df)
 	convert_xlsx(df)
+	convert_airtable(df)
 
 def convert_csv(df):
 	df.to_csv("output.csv",index=None)
 def convert_xlsx(df):
 	df.to_excel("output.xlsx", index=None)
+def convert_airtable(df):
+
+	post_url = 'https://api.airtable.com/v0/YOUR-APP-ID/Table2'
+	post_headers = {
+	    'Authorization' : 'Bearer YOUR-API-KEY',
+	    'Content-Type': 'application/json'
+	}
+	for ind in df.index: 
+		arr_uuid=df['uuid'][ind]
+		arr_origin=df['origin'][ind]
+		arr_project=df['project'][ind]
+		arr_project_1=df['project_1'][ind]
+		arr_grimoirelab_creation_date=df['grimoirelab_creation_date'][ind]
+		arr_subject_analysed=df['subject_analyzed'][ind]
+		arr_body=df['body'][ind]	
+
+		data = {
+			"fields": {
+				"uuid":arr_uuid,
+				"origin":arr_origin,
+				"project":arr_project,
+				"project_1":arr_project_1,
+				"grimoirelab_creation_date":arr_grimoirelab_creation_date,
+				"subject_analyzed":arr_subject_analysed,
+				"body":arr_body
+		        }
+		    }
+
+		post_airtable_request = requests.post(post_url, headers = post_headers, json = data)
+	if (post_airtable_request.status_code ==200):
+		print("Data successfully exported to Airtable " )
+
 
 def main():
 	search()
