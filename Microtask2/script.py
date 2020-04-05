@@ -23,7 +23,7 @@ def extract_gitlab(own,repo):
 
 
 	"""The method fetch() retrieves a list of all issues/merge requests 
-	from the repository from a GitLab repository.
+	from a GitLab repository.
 	Here, we are fetching the list of commits and printing all the data.
 	"""
 

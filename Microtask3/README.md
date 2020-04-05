@@ -6,7 +6,7 @@
 
 1. What is the meaning of the JSON attribute `timestamp`?
 	
-	Timestamp is the current UTC date and time of the item.
+	Timestamp is the current UTC date and time of the item. It is the time when item was fetched from data source. 
 
 2. What is the meaning of the JSON attribute `updated_on`?
 
@@ -32,12 +32,13 @@
 	The UUID will be the SHA1 of the concatenation of the values
     from the list. The separator between these values is ':'.
     Each value must be a non-empty string, otherwise, the function
-    will raise an exception.
+    will raise an exception. uuid is used to uniquely identify a Perceval item.
 
 
 7. What is the meaning of the JSON attribute ```search_fields```?
 	
-	By default, search_fields contains the id of the item ('item_id': item_id_value). However, each backend can set extra search fields using the dict EXTRA_SEARCH_FIELDS.
+	Search fields contain information of our request item fetched by Perceval. By default, search_fields contains the id of the item ('item_id': item_id_value). However, each backend can set extra search fields using the dict EXTRA_SEARCH_FIELDS. For example, Github has owner,repo as additional search fields of an item, along with item id as default search fields.
+	The search fields expose some attributes (and their values) that are useful to perform searches. Thus, they simplify the life of the users that are not requested to inspect the content of the Perceval `data` attribute.
 
 8. What is stored in the attribute ```data``` of each JSON document produced by Perceval?
 	
