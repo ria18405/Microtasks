@@ -1,7 +1,7 @@
 ## MICROTASK 10:
 **AIM** : Submit at least a PR to one of the GrimoireLab repositories to fix an issue, improve the documentation, etc.
 
-1. (Merged ) Added sections of Troubleshooting in Getting Started - [#429](https://github.com/chaoss/grimoirelab-sirmordred/pull/429) 
+1. (Merged ) Added sections of Troubleshooting in Getting Started - [chaoss/grimoirelab-sirmordred/#429](https://github.com/chaoss/grimoirelab-sirmordred/pull/429) 
 
 Made commits regarding some problems I faced during my setup of the dev environment. It was related to a sleep-for-rate section and a loss of functionality due to swap space.
 
@@ -22,6 +22,14 @@ This will ensure first time contributions and users to know more about the syste
 4. (Merged) Fixed some backlinks in Getting Started -[#451](https://github.com/chaoss/grimoirelab-sirmordred/pull/451)
 
 Fixed some broken and inconsistent links in GettingStarted.md document
+
+5. (Merged) [#641](https://github.com/chaoss/grimoirelab-perceval/pull/641)
+
+6. (Merged)[#643](https://github.com/chaoss/grimoirelab-perceval/pull/643)
+
+7. [grimoirelab-sortinghat#283](https://github.com/chaoss/grimoirelab-sortinghat/pull/283)
+
+8. [grimoirelab-manuscripts#137](https://github.com/chaoss/grimoirelab-manuscripts/pull/137)
 
 
 
